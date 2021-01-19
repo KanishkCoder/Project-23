@@ -77,17 +77,6 @@ function draw() {
   
   drawSprites();
   
-}
-function keyPressed(){
-	if(keyCode===LEFT_ARROW){
-		packageBody.velocityX=-3;
-		helicopterSprite.velocityX=-3;
-	}
-    if(keyCode===RIGHT_ARROW){
-		packageBody.velocityX=3;
-		helicopterSprite.velocityX=3;
-	} 
-	if(keyCode===DOWN_ARROW){
-		Matter.Body.setStatic(packageBody,false)
-	}
+  
+ 
 }
